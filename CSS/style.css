@@ -554,17 +554,77 @@ video {
   --tw-contain-style:  ;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-\[32px\] {
+  margin-bottom: 32px;
+}
+
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
+.mb-\[56px\] {
+  margin-bottom: 56px;
+}
+
+.mb-\[63px\] {
+  margin-bottom: 63px;
+}
+
+.ml-\[119px\] {
+  margin-left: 119px;
+}
+
+.ml-\[125px\] {
+  margin-left: 125px;
+}
+
+.ml-\[25px\] {
+  margin-left: 25px;
+}
+
+.ml-\[37px\] {
+  margin-left: 37px;
+}
+
+.ml-\[82px\] {
+  margin-left: 82px;
+}
+
+.ml-\[94px\] {
+  margin-left: 94px;
+}
+
+.mr-\[81px\] {
+  margin-right: 81px;
 }
 
 .mt-\[46px\] {
   margin-top: 46px;
 }
 
+.mt-\[68px\] {
+  margin-top: 68px;
+}
+
+.mb-\[66px\] {
+  margin-bottom: 66px;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .items-center {
@@ -579,20 +639,34 @@ video {
   justify-content: space-between;
 }
 
-.gap-\[642px\] {
-  gap: 642px;
-}
-
-.gap-\[65px\] {
-  gap: 65px;
+.gap-\[121px\] {
+  gap: 121px;
 }
 
 .gap-\[54px\] {
   gap: 54px;
 }
 
+.gap-\[65px\] {
+  gap: 65px;
+}
+
 .rounded-lg {
-  border-radius: 0.5rem;
+  border-radius: 8px;
+}
+
+.rounded-megaLarge {
+  border-radius: 59px;
+}
+
+.bg-Yellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 199 68 / var(--tw-bg-opacity));
+}
+
+.bg-bgHero {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 246 245 / var(--tw-bg-opacity));
 }
 
 .bg-black {
@@ -605,6 +679,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .font-Poppins {
   font-family: Poppins, sans-serif;
 }
@@ -614,17 +692,43 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .font-medium {
   font-weight: 500;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
+.leading-\[125\%\] {
+  line-height: 125%;
+}
+
 .tracking-narrow {
   letter-spacing: -.03em;
+}
+
+.tracking-narrowest {
+  letter-spacing: -.05em;
 }
 
 .tracking-wide {
@@ -634,6 +738,11 @@ video {
 .text-TextColor {
   --tw-text-opacity: 1;
   color: rgb(36 35 35 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -648,4 +757,18 @@ video {
 .singUpButton {
   height: 62px;
   width: 134px;
+}
+
+.bgHero {
+  height: 852px;
+  max-width: 1720px;
+}
+
+.showNowButton {
+  height: 82px;
+  width: 221px;
+}
+
+.bgSponsor {
+  height: 186px;
 }

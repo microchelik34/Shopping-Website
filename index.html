@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -13,7 +13,7 @@
 </head>
 <body class="bg-white">
 <!--    Header-->
-    <header class="headerClass flex mx-auto justify-between items-center mt-[46px]">
+    <header class="headerClass flex mx-auto justify-between items-center mt-[46px] mb-[56px]">
         <img src="Images/Logo.svg" alt="">
         <nav class="flex gap-[54px]">
             <ul class="flex items-center gap-[65px]">
@@ -22,16 +22,47 @@
                 <li><a href="#" class="font-Poppins font-medium text-xl tracking-wide text-TextColor">FAVOURITE</a></li>
                 <li><a href="#" class="font-Poppins font-medium text-xl tracking-wide text-TextColor">LIFESTYLE</a></li>
             </ul>
-            <ul>
-                <li class="singUpButton rounded-lg border-lg bg-black flex items-center justify-center">
-                    <a href="#" class="font-Poppins font-medium text-2xl tracking-narrow text-white">SIGN UP</a></li>
-            </ul>
+            <button class="singUpButton rounded-lg bg-black flex items-center justify-center">
+                <a href="#" class="font-Poppins font-medium text-2xl tracking-narrow text-white">SIGN UP</a></button>
         </nav>
     </header>
 
 <!--Hero-->
-    <section>
-        
+    <section class="bgHero mx-auto bg-bgHero rounded-megaLarge flex justify-between mb-[63px]">
+        <div class="grid mt-[68px] ">
+            <div class="grid font-Poppins font-black text-8xl leading-[125%] text-black mb-[40px]">
+                <div class="bg bg-no-repeat ml-[82px] flex items-center" style="background-image: url('/Images/WhiteBG.svg')">
+                    <p class="ml-[37px]">LET’S</p>
+                </div>
+                <p class="ml-[119px]"> EXPLORE </p>
+                <div class="bg bg-no-repeat ml-[94px] flex items-center" style="background-image: url('/Images/YellowBG.svg')">
+                    <p class="ml-[25px]"> UNIQUE </p>
+                </div>
+                <p class="ml-[119px]"> CLOTHES.</p>
+            </div>
+
+            <span class="font-Poppins font-normal text-3xl tracking-narrowest text-black ml-[119px] mb-[32px]">Live for Influential and Innovative fashion!</span>
+
+            <button class="showNowButton rounded-lg flex items-center justify-center bg-black ml-[125px]">
+                <span class="font-Poppins font-medium text-3xl tracking-narrowest text-white ">Shop Now</span>
+            </button>
+        </div>
+        <div class="mr-[81px] mt-[68px] flex bottom-0">
+            <img src="Images/WomanWithStars.svg" alt="">
+        </div>
     </section>
+
+<!--Sponsors-->
+    <section class="bgSponsor flex justify-center items-center bg bg-Yellow mb-[66px]">
+        <div class="mx-auto flex justify-center items-center gap-[121px]">
+            <img src="Images/HM.svg" alt="">
+            <img src="Images/OBEY.svg" alt="">
+            <img src="Images/Shopify.svg" alt="">
+            <img src="Images/Lacoste.svg" alt="">
+            <img src="Images/Levis.svg" alt="">
+            <img src="Images/Amazon.svg" alt="">
+        </div>
+    </section>
+
 </body>
 </html>

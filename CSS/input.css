@@ -9,3 +9,15 @@
 .singUpButton {
     @apply w-[134px] h-[62px]
 }
+
+.bgHero {
+    @apply max-w-[1720px] h-[852px]
+}
+
+.showNowButton {
+    @apply w-[221px] h-[82px]
+}
+
+.bgSponsor {
+    @apply h-[186px]
+}
