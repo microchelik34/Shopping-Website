@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headerClass {
+    @apply max-w-[1718px]
+}
+
+.singUpButton {
+    @apply w-[134px] h-[62px]
+}
