@@ -31,11 +31,11 @@
     <section class="bgHero mx-auto bg-bgHero rounded-megaLarge flex justify-between mb-[63px]">
         <div class="grid mt-[68px] ">
             <div class="grid font-Poppins font-black text-8xl leading-[125%] text-black mb-[40px]">
-                <div class="bg bg-no-repeat ml-[82px] flex items-center" style="background-image: url('/Images/WhiteBG.svg')">
+                <div class="bg bg-no-repeat bg-contain bg- ml-[82px] flex items-center" style="background-image: url('/Images/WhiteBG.svg')">
                     <p class="ml-[37px]">LET’S</p>
                 </div>
                 <p class="ml-[119px]"> EXPLORE </p>
-                <div class="bg bg-no-repeat ml-[94px] flex items-center" style="background-image: url('/Images/YellowBG.svg')">
+                <div class="bg bg-no-repeat bg-contain bg- ml-[94px] flex items-center" style="background-image: url('/Images/YellowBG.svg')">
                     <p class="ml-[25px]"> UNIQUE </p>
                 </div>
                 <p class="ml-[119px]"> CLOTHES.</p>
@@ -53,15 +53,165 @@
     </section>
 
 <!--Sponsors-->
-    <section class="bgSponsor flex justify-center items-center bg bg-Yellow mb-[66px]">
-        <div class="mx-auto flex justify-center items-center gap-[121px]">
-            <img src="Images/HM.svg" alt="">
-            <img src="Images/OBEY.svg" alt="">
-            <img src="Images/Shopify.svg" alt="">
-            <img src="Images/Lacoste.svg" alt="">
-            <img src="Images/Levis.svg" alt="">
-            <img src="Images/Amazon.svg" alt="">
+    <section class="bgSponsor grid items-center bg bg-Yellow mb-[66px]">
+            <ul class=" flex justify-around ">
+                <li><img src="Images/HM.svg" alt=""></li>
+                <li><img src="Images/OBEY.svg" alt=""></li>
+                <li><img src="Images/Shopify.svg" alt=""></li>
+                <li><img src="Images/Lacoste.svg" alt=""></li>
+                <li><img src="Images/Levis.svg" alt=""></li>
+                <li><img src="Images/Amazon.svg" alt=""></li>
+            </ul>
+    </section>
+
+<!--New Arrivals-->
+    <section class="newArrivalsClass mx-auto mb-[160px]">
+
+        <div class="newArrivalsText bg bg-no-repeat bg-local flex items-center mb-[118px] bg-right-bottom" style="background-image: url('/Images/Vector.svg')">
+            <p class="font-Poppins font-black text-5xl leading-[104%] tracking-widest text-black left-0">NEW ARRIVALS</p>
         </div>
+
+        <div class="grid grid-cols-3 gap-[90px]">
+            <div class="cartWithClothes grid items-center">
+                <img src="Images/WomanInOrange.svg" alt="" class="mb-[28px]">
+                <div class="flex justify-between items-center">
+                    <div class="grid">
+                        <span class="font-Poppins font-medium text-3xl leading-[156%] tracking-narrow text-black">Hoodies & Sweetshirt</span>
+                        <span class="font-Poppins font-medium text-2xl leading-[208%] tracking-narrow text-TextGray">Explore Now!</span>
+                    </div>
+                    <div>
+                        <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807611 21.9792 0.807611 21.3934 1.3934C20.8076 1.97919 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5L32 13.5V10.5L0 10.5L0 13.5Z" fill="#797979"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cartWithClothes grid items-center">
+                <img src="Images/WomanInJeans.svg" alt="" class="mb-[28px]">
+                <div class="flex justify-between items-center">
+                    <div class="grid">
+                        <span class="font-Poppins font-medium text-3xl leading-[156%] tracking-narrow text-black">Coats & Parkas</span>
+                        <span class="font-Poppins font-medium text-2xl leading-[208%] tracking-narrow text-TextGray">Explore Now!</span>
+                    </div>
+                    <div>
+                        <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807611 21.9792 0.807611 21.3934 1.3934C20.8076 1.97919 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5L32 13.5V10.5L0 10.5L0 13.5Z" fill="#797979"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cartWithClothes grid items-center">
+                <img src="Images/WomanInTshirt.svg" alt="" class="mb-[28px]">
+                <div class="flex justify-between items-center">
+                    <div class="grid">
+                        <span class="font-Poppins font-medium text-3xl leading-[156%] tracking-narrow text-black">Tees & T-Shirt</span>
+                        <span class="font-Poppins font-medium text-2xl leading-[208%] tracking-narrow text-TextGray">Explore Now!</span>
+                    </div>
+                    <div>
+                        <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807611 21.9792 0.807611 21.3934 1.3934C20.8076 1.97919 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5L32 13.5V10.5L0 10.5L0 13.5Z" fill="#797979"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--PayDay-->
+    <section class="mb-[190px]">
+        <div class="payDayClass grid grid-cols-2 bg bg-local" style="background-image: url('/Images/GroupYellowBanner.svg')">
+
+            <div></div>
+
+            <div class="gridPayDay grid justify-center mt-[128px] ml-[67px]">
+                <div class="bg bg-no-repeat flex" style="background-image: url('/Images/Rectangle-25.svg')">
+                    <span class="font-Poppins font-black text-[111px] leading-[123%] text-black ml-[23px]">PAYDAY</span>
+                </div>
+                <span class="font-Poppins font-black text-[111px] leading-[123%] text-black ml-[23px]">SALE NOW</span>
+                <span class="font-Poppins font-medium text-4xl leading-[145%] tracking-narrow text-black ml-[23px]">Spend minimal $100 get 30% off <br> voucher code for your next purchase</span>
+                <span class="font-Poppins font-bold text-4xl leading-[145%] tracking-wide text-black ml-[23px]">1 June - 10 June 2021</span>
+                <span class="font-Poppins font-normal text-4xl leading-[145%] tracking-narrow text-black ml-[23px]">*Terms & Conditions apply</span>
+                <button class="showNowButton rounded-lg flex items-center justify-center bg-black ml-[23px]">
+                    <span class="font-Poppins font-medium text-3xl tracking-narrowest text-white ">Shop Now</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Favourite-->
+    <section class="favouriteClass mx-auto mb-[220px]">
+
+        <div class="favouriteText bg bg-no-repeat bg-local flex items-center mb-[118px] bg-right-bottom" style="background-image: url('/Images/Vector.svg')">
+            <p class="font-Poppins font-black text-5xl leading-[104%] tracking-widest text-black left-0">Young’s Favourite</p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-[47px]">
+            <div class=" grid items-center">
+                <img src="Images/TrendingOnInst.svg" alt="" class="mb-[28px]">
+                <div class="flex justify-between items-center">
+                    <div class="grid">
+                        <span class="font-Poppins font-medium text-3xl leading-[156%] tracking-narrow text-black">Trending on instagram</span>
+                        <span class="font-Poppins font-medium text-2xl leading-[208%] tracking-narrow text-TextGray">Explore Now!</span>
+                    </div>
+                    <div>
+                        <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807611 21.9792 0.807611 21.3934 1.3934C20.8076 1.97919 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5L32 13.5V10.5L0 10.5L0 13.5Z" fill="#797979"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" grid items-center">
+                <img src="Images/AllUnder.svg" alt="" class="mb-[28px]">
+                <div class="flex justify-between items-center">
+                    <div class="grid">
+                        <span class="font-Poppins font-medium text-3xl leading-[156%] tracking-narrow text-black">All Under $40</span>
+                        <span class="font-Poppins font-medium text-2xl leading-[208%] tracking-narrow text-TextGray">Explore Now!</span>
+                    </div>
+                    <div>
+                        <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33.0607 13.0607C33.6464 12.4749 33.6464 11.5251 33.0607 10.9393L23.5147 1.3934C22.9289 0.807611 21.9792 0.807611 21.3934 1.3934C20.8076 1.97919 20.8076 2.92893 21.3934 3.51472L29.8787 12L21.3934 20.4853C20.8076 21.0711 20.8076 22.0208 21.3934 22.6066C21.9792 23.1924 22.9289 23.1924 23.5147 22.6066L33.0607 13.0607ZM0 13.5L32 13.5V10.5L0 10.5L0 13.5Z" fill="#797979"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Download-->
+    <section class="downloadClass mx-auto mb-[220px]">
+        <div class="flex justify-between">
+            <div class="flex flex-col my-auto">
+                <span class="font-Poppins font-black text-5xl leading-[150%] tracking-widest text-black mb-[41px]">DOWNLOAD APP & <br> GET THE VOUCHER!</span>
+                <span class="font-Poppins font-medium text-2xl leading-[146%] tracking-narrow text-TextGray mb-[65px]">Get 30% off for first transaction using <br> Rondovision mobile app for now.</span>
+                <div class="flex items-center gap-[19px]">
+                    <img src="Images/AppStore.svg" alt="" class="h-auto w-auto">
+                    <img src="Images/GooglePlay.svg" alt="" class="h-auto w-auto">
+                </div>
+            </div>
+            <div class="flex items-center">
+                <img src="Images/Telephone.svg" alt="" class="h-auto w-auto">
+            </div>
+        </div>
+    </section>
+
+    <!--Mail-->
+    <section class="bg-YellowBG ">
+        <div class="flex flex-col text-center mx-auto pt-[141px] pb-[156px]">
+            <span class="font-Poppins font-black text-5xl leading-[127%] tracking-wide text-white mb-[37px]">JOIN SHOPPING COMMUNITY TO <br> GET MONTHLY PROMO</span>
+            <span class="font-Poppins font-normal text-3xl leading-[109%] tracking-wide text-white mb-[49px]">Type your email down below and be young wild generation</span>
+            <div class="mailInputClass flex justify-center items-center bg-white rounded-lg overflow-hidden mx-auto">
+                <input type="email" placeholder="Add your email here" class="p-4 w-full focus:outline-none rounded-l-full">
+                <button class="bg-black font-Poppins font-medium text-3xl leading-[106%%] tracking-wide capitalize text-white px-6 py-4 ">SEND</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section>
+
     </section>
 
 </body>

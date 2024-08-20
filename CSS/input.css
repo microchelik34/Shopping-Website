@@ -21,3 +21,39 @@
 .bgSponsor {
     @apply h-[186px]
 }
+
+.newArrivalsClass {
+    @apply max-w-[1638px]
+}
+
+.newArrivalsText {
+    @apply max-w-[411px] h-[57px]
+}
+
+.cartWithClothes {
+    @apply max-w-[484px] h-[808px]
+}
+
+.payDayClass {
+    @apply max-w-[1924px] h-[968px]
+}
+
+.gridPayDay {
+    @apply max-w-[666px]
+}
+
+.favouriteText {
+    @apply max-w-[513px] h-[64px]
+}
+
+.favouriteClass {
+    @apply max-w-[1720px]
+}
+
+.downloadClass {
+    @apply max-w-[1483px]
+}
+
+.mailInputClass {
+    @apply w-[574px]
+}
