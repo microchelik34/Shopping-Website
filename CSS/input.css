@@ -57,3 +57,11 @@
 .mailInputClass {
     @apply w-[574px]
 }
+
+.footerDarkText {
+    @apply font-Poppins font-normal text-2xl leading-[167%] tracking-wide text-TextGrayDark
+}
+
+.footerLightText {
+    @apply font-Poppins font-normal text-2xl leading-[167%] tracking-wide text-TextGrayLight
+}

@@ -17,6 +17,8 @@ module.exports = {
         'Blue': '#C2C8DA',
         'TextColor': '#242323',
         'TextGray': '#7f7f7f',
+        'TextGrayLight': '#d9d9d9',
+        'TextGrayDark': '#8e8e8e',
         'bgHero': '#f4f6f5',
       },
       letterSpacing: {
