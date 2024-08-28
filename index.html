@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body class="bg-white">
+
+
 <!--    Header-->
     <header class="headerClass flex mx-auto justify-between items-center mt-[46px] mb-[56px]">
         <img src="Images/Logo.svg" alt="">
@@ -52,17 +54,32 @@
         </div>
     </section>
 
+
 <!--Sponsors-->
-    <section class="bgSponsor grid items-center bg bg-Yellow mb-[66px]">
-            <ul class=" flex justify-around ">
-                <li><img src="Images/HM.svg" alt=""></li>
-                <li><img src="Images/OBEY.svg" alt=""></li>
-                <li><img src="Images/Shopify.svg" alt=""></li>
-                <li><img src="Images/Lacoste.svg" alt=""></li>
-                <li><img src="Images/Levis.svg" alt=""></li>
-                <li><img src="Images/Amazon.svg" alt=""></li>
-            </ul>
-    </section>
+<section class="bgSponsor mx-auto overflow-hidden grid items-center bg-Yellow mb-[66px]">
+    <div class="marquee relative flex overflow-hidden">
+        <ul class="marquee__content flex justify-around items-center min-w-full animate-scroll">
+            <li><img src="Images/HM.svg" alt=""></li>
+            <li><img src="Images/OBEY.svg" alt=""></li>
+            <li><img src="Images/Shopify.svg" alt=""></li>
+            <li><img src="Images/Lacoste.svg" alt=""></li>
+            <li><img src="Images/Levis.svg" alt=""></li>
+            <li><img src="Images/Amazon.svg" alt=""></li>
+        </ul>
+
+        <ul aria-hidden="true" class="marquee__content flex justify-around items-center min-w-full animate-scroll">
+            <li><img src="Images/HM.svg" alt=""></li>
+            <li><img src="Images/OBEY.svg" alt=""></li>
+            <li><img src="Images/Shopify.svg" alt=""></li>
+            <li><img src="Images/Lacoste.svg" alt=""></li>
+            <li><img src="Images/Levis.svg" alt=""></li>
+            <li><img src="Images/Amazon.svg" alt=""></li>
+        </ul>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
 
 <!--New Arrivals-->
     <section class="newArrivalsClass mx-auto mb-[160px]">
@@ -121,7 +138,7 @@
 
 <!--PayDay-->
     <section class="mb-[190px]">
-        <div class="payDayClass grid grid-cols-2 bg bg-local" style="background-image: url('/Images/GroupYellowBanner.svg')">
+        <div class="payDayClass mx-auto grid grid-cols-2 bg bg-local" style="background-image: url('/Images/GroupYellowBanner.svg')">
 
             <div></div>
 

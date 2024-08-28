@@ -8,9 +8,20 @@ module.exports = {
     },
 
     extend: {
+      animation: {
+        scroll: 'scroll 10s linear infinite',
+      },
+      keyframes: {
+        scroll: {
+          '0%': {transform: 'translateX(0)'},
+          '100%': {transform: 'translateX(-100%)'},
+        },
+      },
+
       fontFamily:{
         Poppins:['Poppins', 'sans-serif'],
       },
+
       colors: {
         'Yellow': '#E6C744',
         'YellowBG': '#e5c643',
@@ -21,6 +32,7 @@ module.exports = {
         'TextGrayDark': '#8e8e8e',
         'bgHero': '#f4f6f5',
       },
+
       letterSpacing: {
         widest: '.06em',
         wide: '.01em',

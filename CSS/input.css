@@ -19,7 +19,7 @@
 }
 
 .bgSponsor {
-    @apply h-[186px]
+    @apply max-w-[1920px] h-[186px]
 }
 
 .newArrivalsClass {
