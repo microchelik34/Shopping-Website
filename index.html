@@ -17,7 +17,7 @@
 <!--    Header-->
     <header class="headerClass flex mx-auto justify-between items-center mt-[46px] mb-[56px]">
         <img src="Images/Logo.svg" alt="">
-        <nav class="flex gap-[54px]">
+        <nav class="flex gap-[54px] lg:hidden">
             <ul class="flex items-center gap-[65px]">
                 <li><a href="#" class="font-Poppins font-medium text-xl tracking-wide text-TextColor">CATALOGUE</a></li>
                 <li><a href="#" class="font-Poppins font-medium text-xl tracking-wide text-TextColor">FASHION</a></li>
@@ -27,7 +27,33 @@
             <button class="singUpButton rounded-lg bg-black flex items-center justify-center">
                 <a href="#" class="font-Poppins font-medium text-2xl tracking-narrow text-white">SIGN UP</a></button>
         </nav>
+
+        <!-- Mobile menu button -->
+        <button id="menu-button" class="hidden lg:flex text-gray-600 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
     </header>
+
+    <!-- Mobile menu panel -->
+    <div id="mobile-menu" class="fixed inset-y-0 right-0 bg-white shadow-lg menu-panel hidden z-50">
+
+        <button id="close-menu-button" class="absolute top-4 right-4 text-gray-600 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </button>
+
+        <nav class="p-4 pt-[50px] space-y-4">
+            <ul class="grid items-center gap-[30px]">
+                <li><a href="#" class="font-Poppins font-medium text-xl tracking-wide text-TextColor">CATALOGUE</a></li>
+                <li><a href="#" class="font-Poppins font-medium text-xl tracking-wide text-TextColor">FASHION</a></li>
+                <li><a href="#" class="font-Poppins font-medium text-xl tracking-wide text-TextColor">FAVOURITE</a></li>
+                <li><a href="#" class="font-Poppins font-medium text-xl tracking-wide text-TextColor">LIFESTYLE</a></li>
+            </ul>
+        </nav>
+    </div>
 
 <!--Hero-->
     <section class="bgHero mx-auto bg-bgHero rounded-megaLarge flex justify-between mb-[63px]">
@@ -88,8 +114,8 @@
             <p class="font-Poppins font-black text-5xl leading-[104%] tracking-widest text-black left-0">NEW ARRIVALS</p>
         </div>
 
-        <div class="grid grid-cols-3 gap-[90px]">
-            <div class="cartWithClothes grid items-center">
+        <div class="grid grid-cols-3 justify-center items-center mx-auto  md:grid-cols-1 md:grid-rows-3 md:content-center gap-[90px]">
+            <div class="cartWithClothes grid  items-center">
                 <img src="Images/WomanInOrange.svg" alt="" class="mb-[28px]">
                 <div class="flex justify-between items-center">
                     <div class="grid">
@@ -138,11 +164,9 @@
 
 <!--PayDay-->
     <section class="mb-[190px]">
-        <div class="payDayClass mx-auto grid grid-cols-2 bg bg-local" style="background-image: url('Images/GroupYellowBanner.svg')">
+        <div class="payDayClass mx-auto flex justify-end xl:justify-center bg bg-local" style="background-image: url('Images/GroupYellowBanner.svg')">
 
-            <div></div>
-
-            <div class="gridPayDay grid justify-center mt-[128px] ml-[67px]">
+            <div class="gridPayDay grid justify-center mt-[128px] mr-[199px] xl:mr-0">
                 <div class="bg bg-no-repeat flex" style="background-image: url('Images/Rectangle-25.svg')">
                     <span class="font-Poppins font-black text-[111px] leading-[123%] text-black ml-[23px]">PAYDAY</span>
                 </div>
@@ -228,7 +252,7 @@
 
     <!--Footer-->
     <section class="bg-black">
-        <div class="flex justify-center items-center gap-[415px] pt-[119px] pb-[147px]">
+        <div class="flex justify-center items-center gap-[415px] pt-[119px] pb-[147px] xl:flex xl:flex-col xl:gap-[100px]">
             <div class="flex flex-col gap-[32px]">
                 <span class="font-Poppins font-black text-4xl tracking-wide text-white">FASHION</span>
                 <span class="footerDarkText">Complete your style with awesome <br> clothes from us.</span>
@@ -252,7 +276,7 @@
                 </div>
             </div>
 
-            <div class="flex gap-[188px]">
+            <div class="flex gap-[188px] md:flex md:flex-col md:gap-[50px] md:justify-between">
                 <div class="flex flex-col gap-[34px]">
                     <a href="#" class="footerLightText">Company</a>
                     <a href="#" class="footerDarkText">About</a>

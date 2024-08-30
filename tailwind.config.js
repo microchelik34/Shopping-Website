@@ -2,6 +2,12 @@
 module.exports = {
   content: ['./index.html'],
   theme: {
+    screens:{
+      xl:{max:'1280px'},
+      lg:{max:'1024px'},
+      md:{max:'829.99px'},
+      sm:{max:'610.99px'},
+    },
     borderRadius: {
       'megaLarge':'59px',
       'lg':'8px',
