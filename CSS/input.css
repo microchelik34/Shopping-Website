@@ -43,7 +43,7 @@
 }
 
 .favouriteText {
-    @apply max-w-[513px] h-[64px]
+    @apply max-w-[513px] h-[64px] sm:max-w-[277px] sm:h-[115px]
 }
 
 .favouriteClass {
@@ -55,7 +55,7 @@
 }
 
 .mailInputClass {
-    @apply w-[574px]
+    @apply max-w-[574px] min-w-[430px]
 }
 
 .footerDarkText {
